@@ -133,22 +133,24 @@ float DefinirTemperatura(int reading)
  
   Serial.print("Reading: ");  
   Serial.println(reading);
-
-  float cuenta = 5.0 / 1024.0;
-    
-  float voltage = reading * cuenta;  
   
   float temp = map(reading, 20, 350, -40, 125);
 
   Serial.print("Temp: ");
   Serial.println(temp);
   
+  /*
+  float cuenta = 5.0 / 1024.0;
+    
+  float voltage = reading * cuenta;  
+  
   // Convert the voltage into the temperature in Celsius
   // restamos 500mV porque 0°C = 0.5V
 
-  float temperatureC = (voltage - 0.5) * 100;
+  float temperatureC = (voltage - 0.5) * 100;}
+  */
   
-  return temperatureC;
+  return temp;
 }
 
 
