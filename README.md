@@ -1,6 +1,6 @@
 # SEGUNDO PARCIAL SPD - TRINIDAD FACCINI - DIV D 
 
-## Sistema de incendios con Tinkercard.
+## SISTEMA DE INCENDIOS CON TINKERCAD
 
 <img width="728" alt="image" src="https://github.com/trinifaccini/segundo_parcial_spd/assets/78211732/e9c067b3-25f2-4ad0-ab81-5856a6c54c6f">
 
