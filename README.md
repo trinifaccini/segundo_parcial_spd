@@ -34,7 +34,13 @@ Conexiones:
 
 ## DESCRIPCION
 
-El sistema de deteccion de incendios, segun lo que recibe el sensor de temperatura, se enciende con el control remoto y es posible cambiar la temperatura para variar las estaciones del año y que se muestren en el LCD, si pasa los 60 grados, se muestra la alerta de incendio. Ademas cuenta con un led verde que esta encendido mientras el sistema no detecta una temperatura que sobrepasa el limite, despues comienza a titilar el led rojo como si fuera una alarma.
+Este sistema de incendios se enciente mediante el boton de ON y OFF del control remoto infrarojo.
+Una vez encendido se prenderá el led de color verde para indicar que está en funcionamiento.
+
+El display LCD mostrará continuamente la temperatura actual que esta recibiendo el sensor de temperatura, acompañada tambien por el nombre de la estacion en la que nos encontramos. 
+La estacion estará determinada por un rango previamente definido. 
+
+Si el sensor de temperatura recibe una mayor a 60 grados, el display LCD dejará de mostrar la temperatura y la estacion y en cambio mostrará "ALERTA INCENDIO". Al mismo tiempo la luz del led rojo comenzará a titilar para altertar al usuario y el servo se moverá para simular una respuesta del sistema ante el incendio. 
 
 ## Diagrama esquematico
 
