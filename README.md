@@ -32,6 +32,32 @@ Conexiones:
 - Conecta el display LCD utilizando los pines correspondientes de Arduino.
 - Conecta el servo motor a uno de los pines PWM de Arduino (por ejemplo, pin 9).
 
+Control remoto:
+
+- Configura el control remoto IR para recibir señales.
+- Define los comandos necesarios para activar y desactivar el sistema de incendio.
+
+Utiliza un algoritmo para determinar la estación del año (por ejemplo, rangos de temperatura
+para cada estación).
+
+Detección de temperatura:
+
+- Configura el sensor de temperatura y realiza la lectura de la temperatura ambiente.
+- Muestra la temperatura actual en el display LCD.
+
+Sistema de alarma:
+
+- Define un umbral de temperatura a partir del cual se considera que hay un incendio (por ejemplo, temperatura superior a 60 grados Celsius).
+- Cuando se detecta un incendio (temperatura por encima del umbral), se activa el servo motor para simular una respuesta del sistema de incendio.
+
+Mensajes en el display LCD:
+- Muestra la temperatura actual y la estación del año en el display LCD.
+- Cuando se detecta un incendio, muestra un mensaje de alarma en el display LCD.
+
+Punto libre:
+- Se deberá agregar dos leds y darle una funcionalidad de su elección, acorde al
+proyecto previamente detallado.
+
 ## DESCRIPCION
 
 Este sistema de incendios se enciente mediante el boton de ON y OFF del control remoto infrarojo.
