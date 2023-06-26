@@ -60,7 +60,7 @@ proyecto previamente detallado.
 
 ## DESCRIPCION
 
-Este sistema de incendios se enciente mediante el boton de ON y OFF del control remoto infrarojo.
+Este sistema de incendios se enciende mediante el boton de ON y OFF del control remoto infrarojo.
 Una vez encendido se prenderá el led de color verde para indicar que está en funcionamiento.
 
 El display LCD mostrará continuamente la temperatura actual que esta recibiendo el sensor de temperatura, acompañada tambien por el nombre de la estacion en la que nos encontramos. 
